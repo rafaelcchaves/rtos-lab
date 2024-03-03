@@ -1,7 +1,7 @@
 // Implement a function "double atof2(char* number)" equivalent to the atof function from the standard C library
 // How to use:
 // $ make 2.exe
-// $ ./2.out x qt
+// $ ./2.out
 
 #include <stdio.h>
 #include <stdlib.h>
