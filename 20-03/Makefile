@@ -4,7 +4,7 @@ SOURCES = $(wildcard *.c)
 TARGETS = $(patsubst %.c, %.out, $(SOURCES))
 LIBS = -lm
 
-all:  $(TARGETS)
+all: $(TARGETS)
 
 %.out: %.c
 	    $(CC) $(CFLAGS) -o $@ $< $(LIBS)
